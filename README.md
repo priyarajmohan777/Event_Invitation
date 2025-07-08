@@ -1,5 +1,5 @@
 # Event Invitation Card  
-## Date: 07-07-2025  
+## Date: 08-07-2025  
 ## Objective:
 
 To design a visually appealing event invitation using HTML elements and basic CSS styling for structure and layout.
@@ -66,16 +66,13 @@ Wrap the content inside a `<div>` with a class name like `invite-card`.
 - Use smaller `font-size`.
 - Add a `border-top` or change background shade for separation.
 
----
 
 ## HTML Code:
 ```
 
-```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
     <title>Event Invitation</title>
     <link rel="stylesheet" href="styles.css">
 </head>
@@ -83,15 +80,15 @@ Wrap the content inside a `<div>` with a class name like `invite-card`.
     <div class="invite-card">
         <h1>Annual Alumni Meet</h1>
         <h3>Reconnect & Celebrate Together</h3>
-        <img src="event-banner.jpg" alt="Event Banner">
-        <div class="event-details">
-            <p><strong>Date:</strong> August 25, 2025</p>
-            <p><strong>Time:</strong> 6:00 PM onwards</p>
-            <p><strong>Venue:</strong> College Auditorium</p>
+        <img src="logo.png" alt="Event Banner">
+        <div class="event-details-card">
+            <p><strong>Date:</strong> August 25, 2025</p> 
+            <p><strong>Time:</strong> 6:00 PM onwards</p> 
+            <p><strong>Venue:</strong> College Auditorium</p> 
         </div>
         <footer>
             For RSVP, contact: Priya R<br>
-            📞 +91-9876543210 | 📧 priya@example.com
+             +91-9876543210 | priya@example.com
         </footer>
     </div>
 </body>
@@ -100,55 +97,60 @@ Wrap the content inside a `<div>` with a class name like `invite-card`.
 ## CSS Code:
 ```
 body {
-    background-color: #f9f4e7;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: 0;
-    padding: 0;
+    background-color: #F0F4FF;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .invite-card {
-    width: 60%;
-    margin: 50px auto;
+    width: 40%;
+    margin: 30px auto;
     padding: 30px;
     background-color: #ffffff;
     border-radius: 15px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
     text-align: center;
 }
 
 h1 {
-    color: #d2691e;
+    color: #6C63FF;
     margin-bottom: 10px;
 }
 
 h3 {
-    color: #666666;
+    color: #444444;
     margin-bottom: 20px;
 }
 
 p {
     font-size: 16px;
-    line-height: 1.6;
+    margin-bottom: 10px;
+    color: #444444;
 }
 
-.event-details p strong {
-    display: inline-block;
-    width: 70px;
-    text-align: right;
+.event-details-card p strong {
+    display: inline;
+    text-align: center;
     margin-right: 10px;
+    color: #6C63FF;
 }
 
 img {
-    max-width: 100%;
-    border-radius: 10px;
-    margin: 20px 0;
+    max-width: 50%;
+    border-radius: 15px;
+    margin-bottom: 40px;
 }
 
 footer {
     font-size: 14px;
     margin-top: 30px;
-    padding-top: 10px;
+    padding-top: 15px;
     border-top: 1px solid #ccc;
-    color: #555;
+    color: #444444;
 }
+
 ```
+## Output:
+![image](https://github.com/user-attachments/assets/1b2260be-c889-4345-b23d-44ae08028dcc)
+
+## Result:
+A responsive and aesthetically pleasing Event Invitation Card was successfully created using separate HTML and CSS files.
